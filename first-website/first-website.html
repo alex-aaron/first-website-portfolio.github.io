@@ -1,10 +1,104 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-      
+      <title>Leila's second maybe website</title>
+            
+<style>
+    body {
+        background: rgb(255, 230, 255);
+        color: rgb(153, 0, 153);
+        padding: 10px;
+        font-family: arial;
+    }
+    #all-contents {
+        max-width: 800px;
+        margin: auto;
+    }
+
+    /* navigation menu */
+    nav {
+        background: rgb(230, 179, 255);
+        margin: 0 auto;
+        display: flex;
+        padding: 10px;
+    }
+    nav h1 {
+        display: flex;
+        align-items: center;
+        color: white;
+        flex: 1;
+        margin: 0;
+    }
+    nav ul {
+        list-style-image: none;
+    }
+    nav li {
+        display: inline-block;
+        padding: 0 10px;
+    }
+    nav a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    /* main container area beneath menu */
+    main {
+        background: rgb(255, 255, 255);
+        display: flex;
+    }
+    .sidebar {
+        margin-right: 25px;
+        padding: 10px;
+    }
+    .sidebar img {
+        width: 200px;
+    }
+    .content {
+        flex: 1;
+        padding: 15px;
+    }
+    h2, h3 {
+        margin: 0px;
+    }
+</style>
     </head>
     
     <body>
-      
+      <div id="all-contents">
+            <nav>
+                <h1>Leila's site</h1>
+                <ul>
+                    <li>
+                        <a href="index.html"> Home </a>
+                    </li>
+                    <li>
+                        <a href="portfolio.html"> Portfolio</a>
+                    </li>
+                </ul>
+            </nav>
+
+
+            <main>
+                <div class="sidebar">
+                    <img src="https://s.yimg.com/ny/api/res/1.2/T8hbaKXemhVqKpgdK.fRag--/YXBwaWQ9aGlnaGxhbmRlcjt3PTk2MDtoPTY0Ng--/https://s.yimg.com/os/creatr-uploaded-images/2024-07/393661b0-3dcd-11ef-b6fa-e91c4ca2c54d">
+
+                </div>
+
+                <div class="content">
+                    <h2>Leila</h2>
+                    <p>Unemployeed and Proud!</p>
+
+                    <div id="interests">
+                        <h3>Interests</h3>
+                        <ul>
+                            <li>Art</li>
+                            <li>Video games</li>
+                            <li>Scrolling on Pinterest</li>
+                        </ul>
+                    </div>
+                </div>
+
+            </main>
+      </div>
     </body>
 </html>
