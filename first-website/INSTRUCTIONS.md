@@ -98,7 +98,7 @@ Above, you'll see this pattern often - notice that we have one `<div>` tag with 
 
 ## Lesson Steps
 
-### TODO 1 : Create index.html
+### TODO 1 : Create first-website.html
 
 1. On the left side of your workspace, locate the `first-website` folder.
 
